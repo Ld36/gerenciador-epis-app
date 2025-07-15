@@ -1,0 +1,89 @@
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.env.local
+.env.testing
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
+
+# Arquivos específicos do projeto EPIs
+/database/database.sqlite
+/storage/logs/*.log
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/app/private/*
+/storage/debugbar/*
+/bootstrap/cache/*.php
+
+# Arquivos de backup e temporários
+*.backup
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Arquivos de configuração local
+/config/database.local.php
+/config/app.local.php
+
+# Arquivos de IDE
+*.sublime-project
+*.sublime-workspace
+.phpstorm.meta.php
+_ide_helper*.php
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de upload (caso existam)
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# Cache do Composer
+/vendor/
+composer.lock
+
+# NPM/Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Arquivos de certificados e chaves
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+
+# Relatórios e exports
+/storage/app/exports/*
+/storage/app/reports/*
+!/storage/app/exports/.gitkeep
+!/storage/app/reports/.gitkeep
